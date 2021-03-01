@@ -1,20 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-	<link href="style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>bdSMM - Social Media course</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 	
+    </head>
+    <body>
+
+
+     <section class="main">
+
+		<nav class="nav flex-row">
+			<div class="nav-menu">
+				<div class="nav-brand">
+					<a href="#" class="text-black"></a>
+				</div>
+			</div>
+			<!-- <div class="toggle-collapse">
+				<div class="toggle-icons text-black">
+					<span><i class="fas fa-bars"></i></span>
+					<span class="icon"></span>
+				</div> -->
+			</div>
+			<div class="menu">
+				<ul class="nav-items flex-row">
+					 <li class="nav-link"><a class="text-black" href="#anchorAbout">Про курс</a>
+					</li>
+					<li class="nav-link"><a class="text-black" href="#cd-timeline">Програма</a>
+					</li>
+					<li class="nav-link"><a class="text-black" href="#last-details">Тарифи</a>
+					</li>
+					<li class="nav-link"><a class="text-black" href="#popup1">Записатись</a>
+					</li>
+				</ul>
+				
+			
+			</div>
 	
-	
+		</nav>
+
+
+        <div class="jumbotron">
+			<img id="main-img" src="assets/images/background-upd.png" alt="">
+            <div class="greetings-text">
+                <h2 class="course-title">КУРС "бдСММ"</h2>
+                <h4 class="course-subtitle">Правдиво про розкрутку в інстаграмі</h4>
+                <p class="course-date">Старт курсу 1 березня 2021 р.<br>
+                    Найбільш детальний курс про розкрутку ВІЗУАЛ+ТАРГЕТ</p>
+                <button class="sign-up"><a href="#popup1">Записатись</a></button>
+            </div>
+                
+               
+        </div>
+
+     </section>
+
+
+     <section id="anchorAbout" class="about">
+        <div class="question">
+            <h4 class="about-title">ЯКИЙ РЕЗУЛЬТАТ Я ОТРИМАЮ?</h4><div id="about-line"></div>
+        </div>
+
+        <div class="icons">
+            <div class="card-icon">
+                <img class="icon-img" src="assets/images/icon-1.png" alt="winking-icon"> 
+                <h4 class="icon-title">Професійно оформите свій робочий або особистий Інста-акаунт</h4>
+                <p class="icon-text">Ви навчитеся планувати контент для стрічки та stories. Складете свій контент-план.
+                    Навчитеся компонувати стрічку і робити мобільну ретуш</p>
+            </div>
+            <div class="card-icon">
+                <img class="icon-img" src="assets/images/icon-2.png" alt="winking-icon"> 
+                <h4 class="icon-title">Створювати Stories, які збиратимуть великі охоплення </h4>
+                <p class="icon-text">Розробити власне формлення Stories
+                    Навчитеся створювати креативні інтерактиви в Stories
+                    Зможете швидко та легко обробляти відео та фото для Stories</p>
+            </div>
+            <div class="card-icon">
+                <img class="icon-img" src="assets/images/icon-3.png" alt="winking-icon"> 
+                <h4 class="icon-title">Навчитеся налаштовувати таргетовану рекламу </h4>
+                <p class="icon-text">Розберетеся у всіх тонкощах
+                    Facebook Business Manager і запустите рекламу, яка принесе результат
+                Створите перші успішні рекламні макети 
+                Отримаєте рецепт найвдаліших макетів, які виведуть ваші рекламні витрати в мінімум</p>
+            </div>
+         </div>
+        </div>
+
+     </section>
+        
+     <section class="program">
+        
+        
 	<section id="cd-timeline" class="cd-container">
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
 			</div>
 
-			<div class="cd-timeline-content">
-				<h2>ПРОГРАМА</h2>
+			<div id="program-start" class="cd-timeline-content program-title">
+                <h2 >ПРОГРАМА</h2>
+                <div class="cd-timeline-underscore cd-picture">
+                </div> 
         
 				
 			</div> <!-- cd-timeline-content -->
@@ -69,8 +161,8 @@
 			<div class="cd-timeline-img cd-location">
 			</div> 
 
-			<div class="cd-timeline-content">
-				<h2 class="text-left">День 4-7
+			<div class="cd-timeline-content program-title">
+				<h2 class="text-left">День 4-7 <br>
 				Блок по візуальному оформленню в Instagram
 				</h2>
 	
@@ -154,8 +246,8 @@
 			<div class="cd-timeline-img cd-location">
 			</div> 
 
-			<div class="cd-timeline-content">
-				<h2 class="text-left">День 9-12. 
+			<div class="cd-timeline-content program-title">
+				<h2 class="text-left">День 9-12. <br>
 					Блок по таргетованій рекламі (блок потребує наявності комп'ютера!)
 					</h2>
 				
@@ -263,55 +355,188 @@
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 	</section> <!-- cd-timeline -->
-	
-	
-	<section class="tooltip>
-			<main>
-  
-  <div class="example-elements">
-    
-    <p data-tooltip="A sample text">
-          Hover over me to see a tooltip
-    </p>
+	 </section>
+	 
+	 <section id="last-details" class="last-details">
 
-    <a href="#" 
-       data-tooltip="This link goes nowhere"
-       data-tooltip-location="right">
-          A typical anchor element
-    </a>
-    
-    <button
-       data-tooltip="Example Tooltip"
-       data-tooltip-location="left">
-          Cool button
-    </button>
-    
-  </div>
-  
-  
-  
-  
-  <div class="info-wrapper">
-    <p>
-      <span class="title-question">
-        You want a simple, animated & easy-to-use tooltip?
-      </span>
-      <span>
-        Just copy all the CSS declarations blocks starting with
-        <code>[data-tooltip].</code>
-      </span>
-    </p>
-    <p 
-       data-tooltip="This is an example of a super long tooltip text that goes over multiple lines. &#xa; &#xa; Note: The tooltip size is dynamically adjusted to the content. However, a minimum and a maximum width are defined."
-       data-tooltip-location="bottom">
-      To use the tooltip, simply add the attribute »data-tooltip« with the desired text to an element. P.S. Hover over me to see a long tooltip.
-    </p>
-  </div>
-</main>
-		</section
-	https://codepen.io/adam2326/pen/VYMOdx/
+
+		<div class="detail-wrapper">
+			<div class="text-decor">
+				<p>bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM bdSMM </p>
+			</div>
 	
 
-<body>
-</body>
+			<div class="left">
+				<h3 >
+					Тарифи
+				</h3>
+				<div class="packages">
+
+				<div class="basic-package">
+					<h1 class="package-title">
+						Звичайний
+					</h1>
+					<p class="package-descr">
+						Тариф для тих, хто хоче навчитися креативно оформити свій профіль в Instagram, розробити стратегію і створювати клікабельні рекламні макети для таргету. <br><br>
+						<span class="highlight">Навчання самостійне. Без зворотного зв'язку.</span>
+					<h1 class="price">
+						2500 грн / 332 zl
+					</h1>
+					</p>
+				</div>
+				
+				<div class="upgrade-package">
+					<h1  class="package-title">
+						Pro
+					</h1>
+					<p class="package-descr">
+						Тариф для тих, хто хоче навчитися креативно оформити свій профіль в Instagram, розробити стратегію і створювати клікабельні стильні рекламні макети для таргета, а також довідатися про способи залучення аудиторії, роботи з охопленнями і навчитися всіх видів взаємодії з аудиторією. <br> <br>
+						<span class="highlight">Навчання самостійне. Зі зворотнім зв'язком <br>(фідбек, відповіді на питання, індивідуальний контроль прогресу)</span>
+					<h1 class="price">
+						3000 грн / 398 zl
+					</h1>
+					</p>
+				</div>
+			</div>
+			</div>
+			<div class="right">
+				<div class="grid-right box">
+					<div class="contact-info">
+						<a href="https://www.instagram.com/city__resident/"><img src="assets/images/about-img.png"  alt="instagram-avatar" class="insta-avatar"></a>
+						<h1>Олена <a href="https://www.instagram.com/city__resident/"> @city__resident</a></h1>
+						<div class="insta-tag">
+							<a href="https://www.instagram.com/city__resident/"><img src="assets/images/instagram.png" alt="" class=" flex-grid insta-icon"></a>
+							<p class="flex-grid description">Aвтор курсу <br> СММ-фахівець з 2 роками практичного стажу</p>
+						</div>
+						
+						
+					</div>
+					<div class="credentials"><p>За плечима:</p>
+						<ul class="achievements">
+							<li>3 роки в блогінгу</li>
+							<li>Понад 50 консультацій</li>
+							<li>Понад 15 проектів</li>
+							<li>Створила 8 проектів з нуля</li>
+							<li>Розробила індивідуальний спосіб <br>просування з мінімальними вкладеннями</li>
+						</ul>
+					</div>
+				<button class="sign-up-2"><a href="#popup1">Записатись</a></button>
+			</div>
+			
+
+
+		<div id="popup1" class="overlay">
+			<div class="popup">
+				<h1>Записатись на курс</h1>
+				<a class="close" href="#last-details">&times;</a>
+				<div class="content">
+					<section id="signup-form">
+						
+						<form action="https://formspree.io/f/mgepqvdq" id="formID" method="POST" class="form-course">
+
+						
+							<label for="firstName">Ім'я</label>
+							<br>
+							<input class="info-main"type="text" name="firstName" id="firstName" required>
+							<br><br>
+							<label for="lastName">Прізвище</label>
+							<br>
+							<input class="info-main" type="text" name="lastName" id="lastName" required>
+							<br><br>
+							<label for="email">Email</label>
+							<br>
+							<input class="info-main" type="email" name="email" id="email" required>
+                            <br><br>
+							<label for="account-link">Посилання на твій Інста-акаунт</label>
+							<br>
+							<input class="info-main" type="text" name="account-link" id="account-link" required>
+							<br><br>
+							<label for="package">Виберіть тариф</label>
+							<br>
+							&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="package" id="basic" value="Basic">
+							<span id="basic">Звичайний</span>
+							&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="package" id="upgrade" value="PRO">
+							&nbsp;
+							<span id="upgrade">PRO</span>
+							<br><br>
+							<label for="questions">Додаткові питання</label>
+							<br>
+							<textarea name="questions" id="questions" cols="30" rows="10"></textarea>
+							<br><br>	
+							<input id="submit" type="submit" value="Записатись!">
+
+
+							<!-- <div class="col">
+								<div class="inputBox">
+									<input type="text" name="firstName" id="firstName" required>
+									<span class="text">Ім'я</span>
+									<span class="line"></span>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="inputBox">
+									<input type="text" name="lastName" id="lastName" required>
+									<span class="text">Прізвище</span>
+									<span class="line"></span>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="inputBox">
+									<input type="email" name="email" id="email" required>
+									<span class="text">Email</span>
+									<span class="line"></span>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="inputBox textarea">
+									<textarea name="questions" id="questions"></textarea>
+									<span class="text">Додаткові питання</span>
+									<span class="line"></span>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="inputBox">
+									<input id="submit" type="submit" value="Записатись!">
+								</div>
+							</div> -->
+
+
+
+						</form>
+			
+				 </section>
+				</div>
+			</div>
+		</div>
+	 </section>
+
+	 <footer>
+		<div class="footer-info">
+
+			<p class="footer-text">
+				Усі питання по курсу - Instagram Direct <a href="https://www.instagram.com/city__resident/"> @city__resident</a><br>
+				Email:<a href="mailto:hello.cityresident@gmail"> hello.cityresident@gmail.com</a>
+			</p>
+			<p class="footer-text">
+				Copyright 2021 <br>
+				All Rights Reserved
+			</p>
+			
+	
+
+		</div>
+		
+	 </footer>
+
+
+
+		<script src="assets/js/app.js" async defer></script>
+		
+    </body>
 </html>
